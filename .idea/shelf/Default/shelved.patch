@@ -1,0 +1,35 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 7ec949fa72394129e99b3933cb6d69dd8eac54bd)
++++ .idea/workspace.xml	(date 1570373912514)
+@@ -65,6 +65,9 @@
+       <setting name="OPEN_NEW_TAB" value="false" />
+     </FindUsagesManager>
+   </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++  </component>
+   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+   <component name="ProjectId" id="1RjfPEKuFSzXvwz5aKdI0R8tcU5" />
+   <component name="ProjectReloadState">
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision 7ec949fa72394129e99b3933cb6d69dd8eac54bd)
++++ .idea/vcs.xml	(date 1570373912533)
+@@ -1,7 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="" vcs="" />
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+   </component>
+-</project>
+-
++</project>
+\ No newline at end of file
