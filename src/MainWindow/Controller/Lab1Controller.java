@@ -4,7 +4,13 @@ import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class Lab1Controller {
 
@@ -13,6 +19,9 @@ public class Lab1Controller {
 
     @FXML
     private Button ActionButton;
+
+    @FXML
+    private Button BackButton1;
 
     @FXML
     private TextArea TextArea;
@@ -59,6 +68,18 @@ public class Lab1Controller {
                 Lab1.Var5 obj = new Lab1.Var5();
                 TextArea.setText("");
                 TextArea.setText(obj.output());
+            }
+        });
+        BackButton1.setOnAction(actionEvent -> {
+            BackButton1.getScene().getWindow().hide();
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("../Visual/MainMenu.fxml"));
+                Parent root = loader.load();
+                Stage stage = new Stage();
+                stage.setScene(new Scene(root,696, 430));
+                stage.show();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         });
     }

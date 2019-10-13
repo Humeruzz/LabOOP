@@ -9,7 +9,7 @@
    <children>
       <AnchorPane layoutX="2.0" layoutY="2.0" prefHeight="100.0" prefWidth="692.0" style="-fx-background-color: #b784a7;">
          <children>
-            <TextField alignment="CENTER" editable="false" focusTraversable="false" prefHeight="100.0" prefWidth="692.0" style="-fx-background-color: #b784a7;" text="Лаборатоные работы">
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" prefHeight="100.0" prefWidth="692.0" style="-fx-background-color: #b784a7;" text="Лабораторные работы">
                <font>
                   <Font name="Times New Roman Bold Italic" size="50.0" />
                </font>
@@ -17,6 +17,11 @@
          </children>
       </AnchorPane>
       <Button fx:id="ButtonLab1" layoutX="59.0" layoutY="152.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="125.0" text="Лабораторная №1">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="ButtonLab2" layoutX="223.0" layoutY="152.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="125.0" text="Лабораторная №2">
          <font>
             <Font name="Times New Roman" size="12.0" />
          </font>
