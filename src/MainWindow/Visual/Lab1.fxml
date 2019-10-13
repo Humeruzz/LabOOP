@@ -11,7 +11,7 @@
    <children>
       <AnchorPane layoutX="2.0" layoutY="2.0" prefHeight="100.0" prefWidth="692.0" style="-fx-background-color: #b784a7;">
          <children>
-            <TextField alignment="CENTER" editable="false" focusTraversable="false" prefHeight="100.0" prefWidth="692.0" style="-fx-background-color: #b784a7;" text="Лаборатоные работа №1">
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" prefHeight="100.0" prefWidth="692.0" style="-fx-background-color: #b784a7;" text="Лабораторная работа №1">
                <font>
                   <Font name="Times New Roman Bold Italic" size="50.0" />
                </font>
@@ -30,5 +30,10 @@
          </font>
       </Button>
       <TextField fx:id="ValueField" layoutX="489.0" layoutY="296.0" />
+      <Button fx:id="BackButton1" layoutX="522.0" layoutY="397.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Вернутся">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
