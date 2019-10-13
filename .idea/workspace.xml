@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="06.10.19 1">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="08.10.19 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Window/MainWindow/Controller/Lab1Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Window/MainWindow/Controller/Lab1Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Window/MainWindow/Controller/MainMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Window/MainWindow/Controller/MainMenuController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Window/MainWindow/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Window/MainWindow/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Window/MainWindow/Visual/Lab1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Window/MainWindow/Visual/MainMenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainWindow/Controller/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow/Controller/MainMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainWindow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainWindow/Visual/Lab1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow/Controller/Visual/Lab1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainWindow/Visual/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow/Controller/Visual/MainMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Window/MainWindow/Visual/Lab1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Window/MainWindow/Visual/Lab1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Window/MainWindow/Visual/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Window/MainWindow/Visual/MainMenu.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,10 +78,28 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Alexandr &lt;humeruzz0@gmail.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="NewType" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -227,7 +242,8 @@
       <workItem from="1570317927540" duration="22000" />
       <workItem from="1570373866448" duration="575000" />
       <workItem from="1570374456766" duration="686000" />
-      <workItem from="1570483399952" duration="1677000" />
+      <workItem from="1570483399952" duration="1944000" />
+      <workItem from="1570988474878" duration="8531000" />
     </task>
     <task id="LOCAL-00001" summary="06.10.19 1">
       <created>1570374545343</created>
@@ -250,7 +266,35 @@
       <option name="project" value="LOCAL" />
       <updated>1570374793205</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="08.10.19 1">
+      <created>1570485301536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570485301536</updated>
+    </task>
+    <task id="LOCAL-00005" summary="13.10.19 1">
+      <created>1570996467596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570996467596</updated>
+    </task>
+    <task id="LOCAL-00006" summary="13.10.19 1">
+      <created>1570996504629</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570996504629</updated>
+    </task>
+    <task id="LOCAL-00007" summary="08.10.19 2">
+      <created>1570996651711</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570996651711</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +347,9 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="06.10.19 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="06.10.19 1" />
+    <MESSAGE value="08.10.19 1" />
+    <MESSAGE value="13.10.19 1" />
+    <MESSAGE value="13.10.19 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.10.19 2" />
   </component>
 </project>
