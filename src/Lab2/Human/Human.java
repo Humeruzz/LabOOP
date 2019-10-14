@@ -16,6 +16,13 @@ public class Human {
         }
     }
 
+    public Human() {
+        this.height = 0;
+        this.arm = new Arm();
+        this.leg = new Leg();
+        this.head = new Head();
+    }
+
     public String output() {
         return "Human:\n" +
                 "height=" + height +
